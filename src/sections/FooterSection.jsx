@@ -84,7 +84,7 @@ export default function FooterSection() {
               <span key={policy} className="flex items-center gap-2">
                 <a href="#" className="transition-colors text-white font-poppins text-sm font-normal leading-[28px] tracking-[0px]">
                   {policy}
-                </a>
+                </a> 
                 {i < POLICIES.length - 1 && (
                   <span className="text-gray-600">|</span>
                 )}
