@@ -106,7 +106,7 @@ export default function HeroSection() {
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className="max-w-2xl py-16"
             >
-              <h1 className="text-3xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-2xl font-bold leading-tight sm:text-5xl lg:text-6xl">
                 <span className="block whitespace-nowrap">{slide.title[0]}</span>
                 <span className="block">{slide.title[1]}</span>
               </h1>

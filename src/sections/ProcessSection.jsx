@@ -154,7 +154,7 @@ export default function ProcessSection() {
                     setActive(i);
                     revealTab(i);
                   }}
-                  className={`relative -mt-px flex-1 whitespace-nowrap px-3 py-4 text-md font-poppins font-medium transition-colors sm:px-6 sm:text-sm ${
+                  className={`relative -mt-px flex-1 whitespace-normal break-words px-3 py-4 text-xs font-poppins font-medium transition-colors sm:whitespace-nowrap sm:px-6 sm:text-sm ${
                     isActive ? "text-white" : "text-gray-400 hover:text-gray-200"
                   }`}
                 >
